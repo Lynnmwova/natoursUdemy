@@ -1,6 +1,5 @@
 .row{
     max-width: $grid-width;
-    background-color: #eeee;
     margin: 0 auto; //center a block element within another block element
 &:not(:last-child){
     margin-bottom: $gutter-verticle; //applies margin on all except last childs'
@@ -8,7 +7,6 @@
 
 @include clearfix;
 [class^="col-"]{
-    background-color: orange;
     float: left;
     &:not(:last-child){
         margin-right: $gutter-horizontal ;
