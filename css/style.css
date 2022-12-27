@@ -139,7 +139,7 @@ body {
 
 .btn--green {
   background-color: #7ed56f;
-  color: #777; }
+  color: #ffff; }
   .btn--green::after {
     background-color: #7ed56f; }
 
