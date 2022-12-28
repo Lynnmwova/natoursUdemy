@@ -154,6 +154,10 @@ body {
   margin-bottom: 8rem;
 }
 
+.u-margin-top-huge {
+  margin-bottom: 10rem;
+}
+
 *,
 *::after,
 *::before {
@@ -417,6 +421,25 @@ body {
   font-weight: 100;
 }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 3rem;
+  font-size: 1.6rem;
+}
+.story__shape {
+  height: 15rem;
+  width: 15rem;
+  float: left;
+  background-color: orangered;
+  shape-outside: circle(50% at 50% 50%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
@@ -436,8 +459,13 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -20vh;
+}
+
+.section-stories {
+  padding: 15rem 0;
+  background-color: #f7f7f7;
 }
 
 .header {
